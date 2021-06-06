@@ -2,11 +2,15 @@ var title="GOAL";
 var subtitle="   football news "
 var x=title+subtitle 
 console.log(x)
-alert('goal web')
+alert ('goal web')
 var p = prompt('are you like football if yes write yes in blank else write no ')
 var p = prompt ('in what year will qatar host the world cup?')
 while(p !=='2022')
 {p= prompt("the anwser is wrong enter the right year  ")}
+function hello() {
+alert("Hello World!");
+}
+hello() 
 var z = prompt('What is your favorite team')
 document.write( z)
 var e = prompt('how many times real madrid won la liga ')
